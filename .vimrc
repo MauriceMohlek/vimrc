@@ -1,5 +1,6 @@
 execute pathogen#infect()
 sy on
+set nowrap
 set autoindent
 set number
 set tabstop=4
