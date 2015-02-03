@@ -23,6 +23,8 @@ set ignorecase
 set smartcase
 set hlsearch
 
+set guioptions+=a
+
 let hlstate=0
 nnoremap <C-H> :if (hlstate == 0) \| nohlsearch \| else \| set hlsearch \| endif \| let hlstate=1-hlstate<cr>
 map <C-F5> :NERDTreeToggle<CR>
